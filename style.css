@@ -4,6 +4,7 @@
     --gray: #e2e8f0;
     --light: #f8fafc;
     --text: #334155;
+    --gris: #a9a9a9;
 }
 
 * {
@@ -128,7 +129,9 @@ body {
 
 .item {
     padding: 12px;
+    margin-top: 10px;
     border-left: 4px solid var(--blue);
+    border-bottom: 4px solid var(--blue);
     background: var(--light);
     border-radius: 8px;
 }
